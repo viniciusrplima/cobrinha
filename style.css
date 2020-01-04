@@ -1,0 +1,197 @@
+.title {
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+
+    color: rgb(235, 45, 92);
+}
+.device {
+    position: relative;
+
+    display: block;
+    margin: auto;
+
+    width: 500px;
+    height: 500px;
+
+
+}
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+}
+.overscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+
+    overflow: hidden;
+
+    z-index: 1;
+}
+.button-set {
+    position: absolute;
+
+    width: 250px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button {
+    width: 100%;
+    position: relative;
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: lightcoral;
+
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+.hud {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hud-button {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: lightcoral;
+
+    padding: 5px;
+    margin: 10px;
+
+    position: relative;
+    left: 100%;
+    transform: translateX(-120%);
+}
+.hud-score {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 50px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+
+    border-radius: 50%;
+
+    color: red;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+
+    background-image: url("assets/arrow-down-filled-triangle.png");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+.options-select {
+    width: 150px;
+
+    background-color: beige;
+}
+.speed-select {
+    width: 150px;
+    padding: 5px;
+
+    box-sizing: border-box;
+}
+.label {
+    display: inline;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.option-button {
+    border: none;
+    border-radius: 3px;
+
+    padding: 5px;
+
+    margin-top: 25px;
+}
+
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.morePadding {
+    padding: 25px;
+}
+
+.over-button {
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 20px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    background-color: beige;
+}
+
+.reclist {
+    width: 80%;
+    height: 250px;
+
+    margin: auto;
+    padding: 10px;
+
+    background-color: gray;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    text-align: left;
+
+    list-style-position: inside;
+}
+
+.reclist li {
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+    background-color: beige;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
